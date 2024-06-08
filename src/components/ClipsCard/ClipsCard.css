@@ -1,0 +1,31 @@
+.clip-item {
+    background-color: var(--color-dark);
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+}
+.clip-item img {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.clips-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clips-info h5 {
+    font-weight: bold;
+}
+.clips-info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clips-info span {
+    margin-left: 5px;
+    color: var(--color-primary);
+}
+.clips-info svg {
+    color: var(--color-primary);
+}

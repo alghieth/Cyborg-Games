@@ -1,0 +1,5 @@
+.your-game-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--margin-primary) / 2);
+}

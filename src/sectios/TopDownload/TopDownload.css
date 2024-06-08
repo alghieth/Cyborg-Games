@@ -1,0 +1,12 @@
+.top-download-container {
+    flex: 0.5 3%;
+}
+.download-link {
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}

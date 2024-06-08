@@ -1,0 +1,96 @@
+.cyborg-navbar {
+    min-height: 100px;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-link {
+    color: var(--color-gray)
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--color-primary);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.profile-link {
+    color: #999
+}
+.profile-link:hover,
+.profile-link:focus {
+    color: var(--color-light);
+}
+.profile-link:focus .profile {
+    background-color: var(--color-primary);
+}
+.profile:hover,
+.profile:focus {
+    background-color: var(--color-primary);
+}
+.profile:hover a {
+    color: var(--color-light);
+}
+.profile img {
+    width: 100%;
+    margin: 0 0 0 10px;
+}
+
+.toggel-btn label {
+    position: relative;
+    width: 73px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.3), inset 0px -5px 15px  rgba(255, 255, 255, 0.3);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.toggel-btn label::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    left: 0;
+    margin: 0 2px;
+    transition: all 0.5s;
+}
+.toggel-btn input:checked ~ label::after {
+    left: 32px;
+    background: linear-gradient(180deg, #777, #3a3a3a);
+}
+.toggel-btn label::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f186';
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    color: #666;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    transition: all 0.5s;
+    padding: 0;
+    margin: 0;
+}
+.toggel-btn input:checked ~ label::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f185';
+    left: 43px;
+    color: rgb(255, 255, 255);
+}

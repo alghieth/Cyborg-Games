@@ -1,0 +1,11 @@
+.live-stream-items {
+    display: flex;
+    gap: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .live-stream-items {
+        display: flex;
+        flex-direction: column;
+    }
+}

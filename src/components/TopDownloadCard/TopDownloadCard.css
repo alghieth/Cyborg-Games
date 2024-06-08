@@ -1,0 +1,46 @@
+.download-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-gray);
+    padding: 15px 0 15px 0;
+}
+
+.download-item-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-item-img {
+    border-radius: var(--border-radius-primary);
+    margin-right: calc(var(--margin-primary) / 3);
+}
+
+.download-item-disc {
+    line-height: 0.4;
+}
+
+.download-item-disc h4 {
+    font-size: 15px;
+}
+
+.download-item-disc p {
+    color: #666
+}
+
+.download-item-spans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.download-item-disc span {
+    font-size: 15px;
+}
+
+.download-item-btn {
+    cursor: pointer;
+}
+
+
+

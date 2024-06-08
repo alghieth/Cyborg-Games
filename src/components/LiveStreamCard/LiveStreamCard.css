@@ -1,0 +1,19 @@
+.live-stream-item {
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary) / 2 );
+}
+
+.live-stream-item img {
+    border-radius: 50%;
+}
+.live-stream-item h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.live-stream-item p {
+    color: var(--color-gray);
+}

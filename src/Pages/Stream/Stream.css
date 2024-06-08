@@ -1,0 +1,25 @@
+.first-section-streamer {
+    display:  flex;
+    gap: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .first-section-streamer {
+        display:  flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 767px) {
+    .first-section {
+        display:  flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+

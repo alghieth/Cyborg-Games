@@ -1,0 +1,46 @@
+.section-wrapper {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+    margin-top: var(--margin-primary);
+    position: relative;
+}
+
+.section-wrapper .primary-btn {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+    .section-wrapper {
+        padding: calc(var(--padding-primary) / 2);
+        
+    }
+}
+
+.section-wrapper-no-bg {
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+    margin-top: var(--margin-primary);
+    position: relative;
+}
+
+.section-wrapper-no-bg .primary-btn {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+    .section-wrapper-no-bg {
+        padding: calc(var(--padding-primary) / 2);
+        
+    }
+}

@@ -1,0 +1,70 @@
+.your-game-item {
+    flex: 1 1 100%;
+}
+.your-game-item ul {
+    border-bottom: 1px solid var(--color-gray);
+    padding: calc(var(--padding-primary) / 2) 0;
+}
+@media only screen and (min-width: 990px) {
+    .your-game-item ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .your-game-item ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        align-items: center;
+        gap: 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .your-game-item {
+        text-align: center;
+    }
+    .your-game-item ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .your-game-item ul li {
+        flex: 1 1 40%;
+    }
+    .your-game-item ul li:first-child,
+    .your-game-item ul div {
+        flex: 1 1 100%;
+    }
+    .your-game-item ul div {
+        margin: 0 auto;
+    }
+}
+
+ul li img {
+    width: 80px;
+    border-radius: var(--border-radius-primary);
+    margin-right: 20px;
+}
+ul li {
+    flex: 1;
+    line-height: 0.8;
+
+}
+ul li h4 {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+ul li span {
+    font-size: 14px;
+    color: var(--color-gray);
+}
+ul div button {
+    background-color: transparent;
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary) / 5) 20px;
+    color: var(--color-primary);
+}
+
+

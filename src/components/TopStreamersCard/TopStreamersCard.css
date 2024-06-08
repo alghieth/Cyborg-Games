@@ -1,0 +1,33 @@
+.streamers-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #999;
+    padding: 10px 0;
+}
+.streamers-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.streamers-item img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.streamers-item p {
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.streamers-item  .button a {
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.streamers-item .streamers-info svg {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+ }
+

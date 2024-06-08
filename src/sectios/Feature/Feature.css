@@ -1,0 +1,9 @@
+.feature-container {
+    overflow: hidden;
+    flex: 0.9;
+}
+@media screen and (max-width: 992px) {
+    .feature-container {
+        max-width: 100%;
+    }
+}
