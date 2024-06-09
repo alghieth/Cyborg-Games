@@ -7,7 +7,7 @@ import { Home, Profile, Browse, Details, Stream } from './Pages/index';
 function App() {
   return (
     <>
-    <Router basename='/react'>
+    <Router basename='/'>
       <Header/>
       <Container>
         <Routes>
