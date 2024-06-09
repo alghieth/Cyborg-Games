@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cyborg-Games/static/css/main.ce22ab1c.css",
-    "main.js": "/Cyborg-Games/static/js/main.0904304d.js",
+    "main.js": "/Cyborg-Games/static/js/main.b5f19b3b.js",
     "static/media/feature-right.jpg": "/Cyborg-Games/static/media/feature-right.01ad26795580300e2029.jpg",
     "static/media/feature-left.jpg": "/Cyborg-Games/static/media/feature-left.2e7e18e857172344a46d.jpg",
     "static/media/details-02.jpg": "/Cyborg-Games/static/media/details-02.4c3a5cf3e64cb6cc18f5.jpg",
@@ -28,10 +28,10 @@
     "static/media/popular-03.jpg": "/Cyborg-Games/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "/Cyborg-Games/index.html",
     "main.ce22ab1c.css.map": "/Cyborg-Games/static/css/main.ce22ab1c.css.map",
-    "main.0904304d.js.map": "/Cyborg-Games/static/js/main.0904304d.js.map"
+    "main.b5f19b3b.js.map": "/Cyborg-Games/static/js/main.b5f19b3b.js.map"
   },
   "entrypoints": [
     "static/css/main.ce22ab1c.css",
-    "static/js/main.0904304d.js"
+    "static/js/main.b5f19b3b.js"
   ]
 }
