@@ -7,7 +7,7 @@ import { Home, Profile, Browse, Details, Stream } from './Pages/index';
 function App() {
   return (
     <>
-    <Router basename='/'>
+    <Router basename='/Cyborg-Games'>
       <Header/>
       <Container>
         <Routes>
