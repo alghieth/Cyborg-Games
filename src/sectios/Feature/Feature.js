@@ -29,7 +29,7 @@ function Feature() {
       500: {
         items: 1
       },
-      370: {
+      330: {
         items: 1,
       }
     }
